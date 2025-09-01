@@ -1,6 +1,8 @@
 # Purpose
 
-This code is just experimentation. My goal here is to understand Julian Date and Modified Julian Date and construct both representations through code
+This code is just experimentation. My goal here is to understand Julian Date and Modified Julian Date and construct both representations through code.
+
+The '*.txt' files are data downloaded from Stable32 website for Frequency Stability Analysis. The data has no actual purpose here other than to look pretty!
 
 ## Installation
 

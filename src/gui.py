@@ -27,8 +27,10 @@ sns.set_theme(style="whitegrid")
 # TODO: fix datetime conversion when "convert to JD" is pressed, converted values is not accurate
 
 
+# pylint: disable=too-many-instance-attributes
+# pylint: disable=too-few-public-methods
 class PnGui:
-    """renders all objects belonging to the gui to include certaion functionality"""
+    """Layout objects for the gui to include certain functions"""
 
     def __init__(self):
         self.tst_df = populate_df(TST_DF)
