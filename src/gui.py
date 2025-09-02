@@ -7,7 +7,7 @@ from pathlib import Path
 
 from src.dfops import (
     convert_to_mjd,
-    populate_df,
+    add_time_to_df,
     generate_pane,
 )
 

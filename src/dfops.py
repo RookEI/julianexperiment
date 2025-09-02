@@ -9,12 +9,12 @@ from datetime import datetime
 # TODO: Implement functions that aren't implemented
 
 
-def calculate_today_mjd():
+def calculate_today_mjd() -> float:
     """Computation to find MJD from current datetime
 
     Return
     ------
-    np.float64
+    float
 
     """
     now = datetime.now()
@@ -48,9 +48,8 @@ def is_mjd(series: pd.Series) -> bool:
     raise NotImplementedError
 
 
-def populate_df(df: pd.DataFrame) -> pd.DataFrame:
-    """Add necessary columns and rows into the dataframe populated with necessary data
-    to allow for simple analysis.
+def add_time_to_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Create an arbritrary column with timestamps for each index.
 
     Parameters
     ----------
